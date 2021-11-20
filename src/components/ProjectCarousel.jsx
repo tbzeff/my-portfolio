@@ -14,7 +14,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import ProjectCard from './ProjectCard';
 
 const ProjectCarousel = (props) => (
-    <Carousel>
+    <Carousel className="m-auto mb-5 bg-secondary border" style={{ width: '700px' }}>
        <Carousel.Item>
            <ProjectCard title="Senior Project" href="https://github.com/mckade/wfcm" img={senior_thumb} />
        </Carousel.Item>

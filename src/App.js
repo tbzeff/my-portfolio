@@ -7,7 +7,7 @@ import Home from './components/pages/Home';
 // https://github.com/Jossdz/react-router-dom-v6/blob/main/src/Router.js
 
 const App = () => ( 
-  <Home />
+  <Home className="bg-dark" />
 )
 
 export default App;

@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Card from 'react-bootstrap/Card';
 
 const ProjectCard = (props) => (
-    <Card style={{ width: '300px', height: '300px' }}>
+    <Card className="m-auto mb-5 mt-5 border" style={{ width: '300px', height: '300px' }}>
         <Card.Img style={{ width: '300px', height: '300px' }} src={props.img} />
         <Card.ImgOverlay >
             <Card.Title>
