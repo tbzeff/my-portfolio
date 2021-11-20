@@ -2,7 +2,6 @@ import React from 'react';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import resume from '../res/taylorbleizeffer-resume.pdf';
-import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 
 const ContactLinks = () => {
@@ -11,8 +10,8 @@ const ContactLinks = () => {
     const [hover2,setHover2] = React.useState(false);
     const [hover3,setHover3] = React.useState(false);
 
-    const itemclass1 = "m-auto"
-    const itemclass2 = "m-auto bg-light"
+    const itemclass1 = "m-auto";
+    const itemclass2 = "m-auto bg-light";
 
     let item1, item2, item3 = "";
 
