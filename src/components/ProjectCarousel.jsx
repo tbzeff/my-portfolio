@@ -2,13 +2,13 @@ import React from 'react';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import senior_thumb from '../res/proj_preview1.JPG';
-import elem_auto_thumb from '../res/proj_preview3.JPG';
-import memory_thumb from '../res/proj_preview4.JPG';
-import codewars_thumb from '../res/proj_preview5.png';
+import senior_thumb from '../res/proj_preview1.jpg';
+import elem_auto_thumb from '../res/proj_preview3.jpg';
+import memory_thumb from '../res/proj_preview4.jpg';
+import codewars_thumb from '../res/proj_preview5.jpg';
 import garden_thumb from '../res/androidlogo.jpg';
-import boop_thumb from '../res/project_preview6.JPG';
-import fata_thumb from '../res/proj_preview2.webp';
+import boop_thumb from '../res/proj_preview6.jpg';
+import fata_thumb from '../res/proj_preview2.jpg';
 
 import Carousel from 'react-bootstrap/Carousel';
 import ProjectCard from './ProjectCard';
