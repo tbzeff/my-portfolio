@@ -1,0 +1,70 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+#StartScreen {
+  visibility: visible;
+}
+
+#GameOverScreen {
+  visibility: hidden;
+}
+
+.menu-screen {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.menu-screen h1 {
+  margin: 0 auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.menu-screen h3 {
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.menu-screen button {
+  margin: 0 auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#game-screen {
+  width: 655px;
+  visibility: hidden;
+  margin: 0 auto;
+}
+
+#block-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  border: solid 5px white;
+  height: 130px;
+}
+
+#block-box div {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  margin: 15px;
+}
+
+#block-box div:hover {
+  -webkit-box-shadow: inset 5px 5px 5px 5px white;
+          box-shadow: inset 5px 5px 5px 5px white;
+}
+
+#player-turn-label {
+  visibility: hidden;
+}
+/*# sourceMappingURL=main.css.map */

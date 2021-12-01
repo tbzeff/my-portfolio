@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style/css/main.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div class="menu-screen" id="StartScreen">
+            <h1>Memory Game</h1>
+            <h3>Memorize the sequences on colors to win!</h3>
+            <button type="button" id="start-button">Start Game</button>
+        </div>
+
+        <div class="menu-screen" id="GameOverScreen">
+            <h1>Game Over</h1>
+            <h3 id="highest-level-label"></h3>
+            <h3 id="score-label"></h3>
+            <button type="button" id="again-button">Play Again?</button>
+        </div>
+
+        <div id="game-screen">
+            <h1 id="generation-label">Memorize this sequence...</h1>
+            <h1 id="player-turn-label">Now repeat it back to me!</h1>
+            <h2 id="level-label"></h2>
+            <h3 id="current-score-label"></h3>      
+            <div id="block-box"></div>
+        </div>
+
+       
+        <audio class="button-tone" id="A-tone" src="res/A220.wav" preload="auto">
+        <audio class="button-tone" id="B-tone" src="res/B246.wav" preload="auto">
+        <audio class="button-tone" id="C-tone" src="res/C261.wav" preload="auto">
+        <audio class="button-tone" id="D-tone" src="res/D293.wav" preload="auto">
+        <audio class="button-tone" id="E-tone" src="res/E329.wav" preload="auto">
+      
+        <script src="src/gamescript.js" async defer></script>
+    </body>
+</html>

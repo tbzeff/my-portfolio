@@ -1,0 +1,77 @@
+/* line 1, ../../../Documents/MyProjects/HTML/Games/Platformer/style/sass/main.scss */
+body {
+  background-color: black;
+  color: white;
+}
+
+/* line 6, ../../../Documents/MyProjects/HTML/Games/Platformer/style/sass/main.scss */
+#StartScreen {
+  visibility: visible;
+}
+
+/* line 10, ../../../Documents/MyProjects/HTML/Games/Platformer/style/sass/main.scss */
+#GameOverScreen {
+  visibility: hidden;
+}
+
+/* line 14, ../../../Documents/MyProjects/HTML/Games/Platformer/style/sass/main.scss */
+.menu-screen {
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* line 19, ../../../Documents/MyProjects/HTML/Games/Platformer/style/sass/main.scss */
+.menu-screen h1 {
+  margin: 0 auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+/* line 25, ../../../Documents/MyProjects/HTML/Games/Platformer/style/sass/main.scss */
+.menu-screen h3 {
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* line 31, ../../../Documents/MyProjects/HTML/Games/Platformer/style/sass/main.scss */
+.menu-screen button {
+  margin: 0 auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+/* line 38, ../../../Documents/MyProjects/HTML/Games/Platformer/style/sass/main.scss */
+#game-screen {
+  width: 655px;
+  visibility: hidden;
+  margin: 0 auto;
+}
+
+/* line 44, ../../../Documents/MyProjects/HTML/Games/Platformer/style/sass/main.scss */
+#block-box {
+  display: flex;
+  flex-direction: row;
+  border: solid 5px white;
+  height: 130px;
+}
+
+/* line 50, ../../../Documents/MyProjects/HTML/Games/Platformer/style/sass/main.scss */
+#block-box div {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  margin: 15px;
+}
+
+/* line 57, ../../../Documents/MyProjects/HTML/Games/Platformer/style/sass/main.scss */
+#block-box div:hover {
+  box-shadow: inset 5px 5px 5px 5px white;
+}
+
+/* line 62, ../../../Documents/MyProjects/HTML/Games/Platformer/style/sass/main.scss */
+#player-turn-label {
+  visibility: hidden;
+}
+
+/*# sourceMappingURL=main.css.map */
