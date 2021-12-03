@@ -43,7 +43,10 @@ const ContactLinks = () => {
                 onMouseOver={ () => setHover1(true) }
                 onMouseOut={ () => setHover1(false) }
             >
-                <Nav.Link className="link-dark" href={resume} >
+                <Nav.Link
+                    className="link-dark" 
+                    href={resume} rel="noreferrer noopener"
+                    target="_blank" >
                     <strong>Resume</strong>
                 </Nav.Link>
             </Nav.Item>
@@ -52,7 +55,11 @@ const ContactLinks = () => {
                 onMouseOver={ () => setHover2(true) }
                 onMouseOut={ () => setHover2(false) }
             >
-                <Nav.Link className="link-dark" href="mailto:taylorbleizeffer@gmail.com" >
+                <Nav.Link 
+                    className="link-dark" 
+                    href="mailto:taylorbleizeffer@gmail.com" 
+                    rel="noreferrer noopener" 
+                    target="_blank" >
                     <strong>Email</strong>
                 </Nav.Link>
             </Nav.Item>
@@ -61,7 +68,11 @@ const ContactLinks = () => {
                 onMouseOver={ () => setHover3(true) }
                 onMouseOut={ () => setHover3(false) }
             >
-                <Nav.Link className="link-dark" href="https://www.linkedin.com/in/taylor-bleizeffer/" >
+                <Nav.Link 
+                    className="link-dark" 
+                    href="https://www.linkedin.com/in/taylor-bleizeffer/" 
+                    rel="noreferrer noopener" 
+                    target="_blank" >
                     <strong>LinkedIn</strong>
                 </Nav.Link>
             </Nav.Item>
