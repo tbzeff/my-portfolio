@@ -1,7 +1,7 @@
 import React from 'react';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import resume from '../res/taylorbleizeffer-resume.pdf';
+import resume from './res/taylorbleizeffer-resume.pdf';
 import Nav from 'react-bootstrap/Nav';
 
 const ContactLinks = () => {
