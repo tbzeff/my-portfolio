@@ -8,18 +8,20 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 const PageHeader = () => (    
-    <Container className="m-auto mb-3 bg-secondary border" style={{ width: '700px' }}>
+    <Container className="m-auto d-flex mb-3 bg-secondary border" style={{ width: '700px' }}>
+   
         <Row>
             <Col>
-                <Card className= "m-auto bg-secondary border-0" style={{ width: '250px' }}>
+                <Card className= "m-auto bg-secondary border-0" style={{ width: '250px' }}> 
                     <Card.Img className="mt-3" src={selfie} style={{ width: '250px'}} />
                     <Card.Body className="m-auto" >
                         <Card.Title variant="center"><strong>Taylor Bleizeffer</strong></Card.Title>
                     </Card.Body>
                 </Card>
             </Col>
+
             <Col>
-                <Card className="p-auto bg-secondary border-0" style={{ width: '250px' }}>
+                <Card className="m-auto p-auto bg-secondary border-0" style={{ width: '250px' }}>
                     <Card.Body className="m-auto"> 
                         <Card.Text className="fw-bold text-center">
                         A recent Computer Science graduate from the University of Wyoming who is deeply curious about the inner-workings of the world. With an academic background in computation and research, and personal background in music and entertainment, I'm always ready to approach problems with an open mind.
@@ -28,6 +30,7 @@ const PageHeader = () => (
                 </Card>    
             </Col>
         </Row>
+           
     </Container>
 )
 
