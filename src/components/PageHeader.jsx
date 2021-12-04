@@ -21,7 +21,7 @@ const PageHeader = () => (
             <Col>
                 <Card className="p-auto bg-secondary border-0" style={{ width: '250px' }}>
                     <Card.Body className="m-auto"> 
-                        <Card.Text className="fw-bold">
+                        <Card.Text className="fw-bold text-center">
                         A recent Computer Science graduate from the University of Wyoming who is deeply curious about the inner-workings of the world. With an academic background in computation and research, and personal background in music and entertainment, I'm always ready to approach problems with an open mind.
                         </Card.Text>
                     </Card.Body>
