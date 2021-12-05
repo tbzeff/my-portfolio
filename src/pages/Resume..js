@@ -5,7 +5,9 @@ import {
     Container, Col, Row,
     Card
 } from 'react-bootstrap';
-
+import Education from '../components/Education';
+import PastEmployment from '../components/PastEmployment';
+import Programs from '../components/Programs';
 
 const Resume = () => (
 

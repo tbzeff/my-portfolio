@@ -1,7 +1,7 @@
 import React from 'react';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import resume from './res/taylorbleizeffer-resume.pdf';
+import { Link } from 'react-router-dom';
 import Nav from 'react-bootstrap/Nav';
 
 const ContactLinks = () => {
@@ -43,12 +43,11 @@ const ContactLinks = () => {
                 onMouseOver={ () => setHover1(true) }
                 onMouseOut={ () => setHover1(false) }
             >
-                <Nav.Link
+                <Link
                     className="link-dark" 
-                    href={resume} rel="noreferrer noopener"
-                    target="_blank" >
+                    to="/resume" >
                     <strong>Resume</strong>
-                </Nav.Link>
+                </Link>
             </Nav.Item>
             <Nav.Item 
                 className={item2}
