@@ -6,10 +6,10 @@ import {
     ListGroup
 } from 'react-bootstrap';
 
-const Education = () => {
-    <ListGroup>
-        <ListGroup.Item>
-            <Card>
+const Education = () => (
+    <ListGroup style={{ width: '700px' }}>
+        <ListGroup.Item className="bg-secondary" style={{ width: '700px' }}>
+            <Card className="text-light bg-secondary">
                 <Card.Title>Cultivating Next Generation Software Engineering Researchers REU Program</Card.Title>
                 <Card.Body>
                     <Card.Text>
@@ -19,8 +19,8 @@ const Education = () => {
             </Card>
         </ListGroup.Item>
     
-        <ListGroup.Item>
-            <Card>
+        <ListGroup.Item className="bg-secondary" style={{ width: '700px' }}>
+            <Card className="text-light bg-secondary">
                 <Card.Title>School of Energy Resources Summer Camp</Card.Title>
                 <Card.Body>
                     <Card.Text>
@@ -30,8 +30,8 @@ const Education = () => {
             </Card>
         </ListGroup.Item>
 
-        <ListGroup.Item>
-            <Card>
+        <ListGroup.Item className="bg-secondary" style={{ width: '700px' }}>
+            <Card className="text-light bg-secondary">
                 <Card.Title>Awakening Summer Internship</Card.Title>
                 <Card.Body>
                     <Card.Text>
@@ -41,6 +41,6 @@ const Education = () => {
             </Card>
         </ListGroup.Item>
     </ListGroup>
-}
+)
 
 export default Education;
