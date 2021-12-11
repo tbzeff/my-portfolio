@@ -10,7 +10,7 @@ const Education = () => (
     <ListGroup style={{ width: '700px' }}>
         <ListGroup.Item className="bg-secondary" style={{ width: '700px' }}>
             <Card className="text-light bg-secondary">
-                <Card.Title>University of Wyoming - Laramie, WY</Card.Title>
+                <Card.Title><strong>University of Wyoming - Laramie, WY</strong></Card.Title>
                 <Card.Body>
                     <Card.Text >
                     Bachelor of Engineering in Computer Science (2020), 3.0 GPA
@@ -21,7 +21,7 @@ const Education = () => (
     
         <ListGroup.Item className="bg-secondary" style={{ width: '700px' }}>
             <Card className="text-light bg-secondary">
-                <Card.Title>Casper College - Casper, WY</Card.Title>
+                <Card.Title><strong>Casper College - Casper, WY</strong></Card.Title>
                 <Card.Body>
                     <Card.Text>
                     Associate of Engineering in Computer Science (2017), 3.0 GPA
@@ -32,7 +32,7 @@ const Education = () => (
 
         <ListGroup.Item className="bg-secondary" style={{ width: '700px' }}>
             <Card className="text-light bg-secondary">
-                <Card.Title>Kelly Walsh High School - Casper, WY</Card.Title>
+                <Card.Title><strong>Kelly Walsh High School - Casper, WY</strong></Card.Title>
                 <Card.Body>
                     <Card.Text>
                     (Graduated 2014), 3.0 GPA

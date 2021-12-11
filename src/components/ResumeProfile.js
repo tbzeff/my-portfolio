@@ -4,7 +4,7 @@ import { Card } from 'react-bootstrap';
 
 const ResumeProfile = () => (
     <Card className="text-light bg-secondary" style={{ width: '700px' }}>
-        <Card.Title>Profile</Card.Title>
+        <Card.Title><strong>Profile</strong></Card.Title>
         <Card.Body>
             <Card.Text>
             I am a curious person and a deep, analytical thinker. This allows me to fully understand problems and

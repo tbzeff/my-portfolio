@@ -11,16 +11,30 @@ import Education from '../components/Education';
 import PastEmployment from '../components/PastEmployment';
 import Programs from '../components/Programs';
 
+const titlestyle = {
+    display: 'block',
+    textAlign: 'center',
+    maxWidth: '100%',
+    width: '300px'
+};
+
+const containerstyle = {
+    display: 'flex',
+    flexDirection: 'column',
+    itemsAlign: 'center',
+    maxWidth: '100%'
+};
+
 const Resume = () => (
 
-    <Container className="bg-dark" fluid>
+    <Container className="bg-dark" style={containerstyle}>
         <Col className="m-auto" style={{ width: '700px' }}>
-            <Row className="mb-3"><ResumeTitle /></Row>            
-            <Row className="mb-3"><ResumeProfile /></Row>
-            <Row className="mb-3"><ResumeSkills /></Row>            
-            <Row className="mb-3"><Education /></Row>             
-            <Row className="mb-3"><PastEmployment /></Row>
-            <Row className="mb-3"><Programs /></Row>
+            <Row className="mb-3 m-auto" style={titlestyle}><ResumeTitle /></Row>            
+            <Row className="mb-3 m-auto"><ResumeProfile /></Row>
+            <Row className="mb-3 m-auto"><ResumeSkills /></Row>            
+            <Row className="mb-3 m-auto"><Education /></Row>             
+            <Row className="mb-3 m-auto"><PastEmployment /></Row>
+            <Row className="mb-3 m-auto"><Programs /></Row>
         </Col>
     </Container>
   

@@ -4,7 +4,7 @@ import { Card } from 'react-bootstrap';
 
 const ResumeSkills = () => (
     <Card className="text-light bg-secondary" style={{ width: '700px' }}>
-        <Card.Title>Skills</Card.Title>
+        <Card.Title><strong>Skills</strong></Card.Title>
         <Card.Body>
             <Card.Text>
             The strengths I bring to any position include excellent communication, great problem-solving,

@@ -7,7 +7,7 @@ import ContactLinks from '../components/ContactLinks';
 import ProjectCarousel from '../components/ProjectCarousel';
 
 const Home = () => (
-    <Container className="bg-dark" fluid>
+    <Container className="bg-dark" style={{ height: '100vh' }} fluid>
         <Col className="m-auto">
             <Row><ContactLinks /></Row>
             <Row><PageHeader /></Row>

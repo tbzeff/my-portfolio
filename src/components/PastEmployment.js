@@ -5,12 +5,12 @@ import { Card, Accordion } from 'react-bootstrap';
 
 const PastEmployment = () => (
     <Card className="bg-secondary" style={{ width: '700px' }}>
-        <Card.Title className="text-light">Past Employment</Card.Title>
+        <Card.Title className="text-light"><strong>Past Employment</strong></Card.Title>
         <Card.Body>
             <Accordion>
                 <Accordion.Item eventKey="0" >
                     <Accordion.Header>
-                        Student Researcher - Rochester Institute of Technology -- “Cultivating Next Generation Software Engineers” REU; Rochester, NY – May 2019 – August 2019:
+                        <strong>Student Researcher - Rochester Institute of Technology -- “Cultivating Next Generation Software Engineers” REU; Rochester, NY – May 2019 – August 2019:</strong>
                     </Accordion.Header>
                     <Accordion.Body>
                     Student researcher, served on research team working closely with mentor professor and team members
@@ -21,9 +21,10 @@ const PastEmployment = () => (
                 </Accordion.Item>
                 <Accordion.Item eventKey="1">
                     <Accordion.Header>
-                    Delivery driver, Jimmy John’s; Laramie, WY – July 2017 – July 2020:
+                    <strong>Delivery driver, Jimmy John’s; Laramie, WY – July 2017 – July 2020:</strong>
                     </Accordion.Header>
                     <Accordion.Body>
+                    <strong>Delivery driver, Jimmy John’s; Casper, WY – Sep 2016 – July 2017</strong> <br />
                     Customer service; food preparation; fulfill delivery orders safely; accurately and quickly; safe food
                     handling; work in team-oriented environment; answer and troubleshoot customer questions and
                     complaints.
@@ -31,14 +32,7 @@ const PastEmployment = () => (
                 </Accordion.Item>
                 <Accordion.Item eventKey="2">
                     <Accordion.Header>
-                    Delivery driver, Jimmy John’s; Casper, WY – Sep 2016 – July 2017
-                    </Accordion.Header>
-                    <Accordion.Body>
-                    </Accordion.Body>
-                </Accordion.Item>
-                <Accordion.Item eventKey="3">
-                    <Accordion.Header>
-                    Bassist, Fathom All the Animals; Denver, CO – Spring 2015 – Present:
+                    <strong>Bassist, Fathom All the Animals; Denver, CO – Spring 2015 – Present:</strong>
                     </Accordion.Header>
                     <Accordion.Body>
                     Teamwork; creativity; social and performance skills; marketing/advertising; managing band social
@@ -46,9 +40,9 @@ const PastEmployment = () => (
                     practice; travel; networking with other musicians, promoters, venues, etc.
                     </Accordion.Body>
                 </Accordion.Item>
-                <Accordion.Item eventKey="4">
+                <Accordion.Item eventKey="3">
                     <Accordion.Header>
-                    Line server, Qdoba Mexican Grill; Casper, WY – Sep 2012 – Aug 2014, Dec 2015 – June 2016:
+                    <strong>Line server, Qdoba Mexican Grill; Casper, WY – Sep 2012 – Aug 2014, Dec 2015 – June 2016:</strong>
                     </Accordion.Header>
                     <Accordion.Body>
                     Customer service; food preparation; fulfill customer orders accurately; work in team-oriented
@@ -57,19 +51,19 @@ const PastEmployment = () => (
                     restaurant clean and presentable; paying attention to details.
                     </Accordion.Body>
                 </Accordion.Item>
-                <Accordion.Item eventKey="5">
+                <Accordion.Item eventKey="4">
                     <Accordion.Header>
-                    Delivery driver, Domino’s Pizza; Casper, WY – Jan 2015 – Feb 2015, Loveland CO – June 2016 –
-                    Sep 2016:
+                    <strong>Delivery driver, Domino’s Pizza; Casper, WY – Jan 2015 – Feb 2015, Loveland CO – June 2016 –
+                    Sep 2016:</strong>
                     </Accordion.Header>
                     <Accordion.Body>
-                    Customer service; fulfill delivery orders safely; accurately and quickly; safe food handling; work in
-                    team-oriented environment; answer or troubleshoot customer questions and complaints.
+                    <strong>Customer service; fulfill delivery orders safely; accurately and quickly; safe food handling; work in
+                    team-oriented environment; answer or troubleshoot customer questions and complaints.</strong>
                     </Accordion.Body>
                 </Accordion.Item>
-                <Accordion.Item eventKey="6">
+                <Accordion.Item eventKey="5">
                     <Accordion.Header>
-                    Front Desk Clerk, C’mon Inn Hotel & Suites; Evansville, WY – June 2015 – Dec 2015:
+                    <strong>Front Desk Clerk, C’mon Inn Hotel & Suites; Evansville, WY – June 2015 – Dec 2015:</strong>
                     </Accordion.Header>
                     <Accordion.Body>
                     Customer service; maintain meticulous records of current guests (room numbers, vehicle and credit
@@ -80,9 +74,9 @@ const PastEmployment = () => (
                     environment for guests.
                     </Accordion.Body>
                 </Accordion.Item>
-                <Accordion.Item eventKey="7">
+                <Accordion.Item eventKey="6">
                     <Accordion.Header>
-                    Video Technician, University of Wyoming Outreach School; Laramie, WY – Sep 2014 – June 2015:
+                    <strong>Video Technician, University of Wyoming Outreach School; Laramie, WY – Sep 2014 – June 2015:</strong>
                     </Accordion.Header>
                     <Accordion.Body>
                     Properly handle and operate classroom technology; maintain connection with off-site classrooms;
