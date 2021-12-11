@@ -7,8 +7,8 @@ import {
 } from 'react-bootstrap';
 
 const Education = () => (
-    <ListGroup className="info-box" style={{ width: '700px' }}>
-        <ListGroup.Item className="bg-secondary" style={{ width: '700px' }}>
+    <ListGroup className="info-box" >
+        <ListGroup.Item className="bg-secondary" >
             <Card className="text-light bg-secondary">
                 <Card.Title><strong>University of Wyoming - Laramie, WY</strong></Card.Title>
                 <Card.Body>
@@ -19,7 +19,7 @@ const Education = () => (
             </Card>
         </ListGroup.Item>
     
-        <ListGroup.Item className="bg-secondary" style={{ width: '700px' }}>
+        <ListGroup.Item className="bg-secondary" >
             <Card className="text-light bg-secondary">
                 <Card.Title><strong>Casper College - Casper, WY</strong></Card.Title>
                 <Card.Body>
@@ -30,7 +30,7 @@ const Education = () => (
             </Card>
         </ListGroup.Item>
 
-        <ListGroup.Item className="bg-secondary" style={{ width: '700px' }}>
+        <ListGroup.Item className="bg-secondary">
             <Card className="text-light bg-secondary">
                 <Card.Title><strong>Kelly Walsh High School - Casper, WY</strong></Card.Title>
                 <Card.Body>
