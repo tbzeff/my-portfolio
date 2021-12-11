@@ -1,5 +1,6 @@
 import React from 'react';
 
+import '../styles/Resume.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { 
     Container, Col, Row,
@@ -22,13 +23,12 @@ const containerstyle = {
     display: 'flex',
     flexDirection: 'column',
     itemsAlign: 'center',
-    maxWidth: '100%'
 };
 
 const Resume = () => (
 
-    <Container className="bg-dark" style={containerstyle}>
-        <Col className="m-auto" style={{ width: '700px' }}>
+    <Container className="bg-dark" style={containerstyle} fluid>
+        <Col className="list-box m-auto" style={{ width: '700px' }}>
             <Row className="mb-3 m-auto" style={titlestyle}><ResumeTitle /></Row>            
             <Row className="mb-3 m-auto"><ResumeProfile /></Row>
             <Row className="mb-3 m-auto"><ResumeSkills /></Row>            

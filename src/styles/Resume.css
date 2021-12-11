@@ -1,0 +1,7 @@
+
+@media (max-width: 650px) {
+  .list-box {
+    max-width: 100%;
+    width: 300px;
+  }
+}
