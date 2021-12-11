@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Card, Accordion } from 'react-bootstrap';
 
 const PastEmployment = () => (
-    <Card className="info-box bg-secondary" style={{ width: '700px' }}>
+    <Card className="info-box bg-secondary border" style={{ width: '700px', borderRadius: '12px' }}>
         <Card.Title className="text-light"><strong>Past Employment</strong></Card.Title>
         <Card.Body>
             <Accordion>

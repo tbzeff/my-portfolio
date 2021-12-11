@@ -7,7 +7,7 @@ import {
 } from 'react-bootstrap';
 
 const Education = () => (
-    <ListGroup className="info-box" >
+    <ListGroup>
         <ListGroup.Item className="bg-secondary" >
             <Card className="text-light bg-secondary">
                 <Card.Title><strong>University of Wyoming - Laramie, WY</strong></Card.Title>
