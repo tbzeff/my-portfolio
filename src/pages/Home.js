@@ -12,11 +12,6 @@ const Home = () => (
             <Row><ContactLinks /></Row>
             <Row><PageHeader /></Row>
             <Row><ProjectCarousel /></Row>
-            <Row>
-                <Container className="bg-secondary">
-                    Made using ReactJS and Bootstrap.
-                </Container>
-            </Row>
         </Col>
     </Container>
 )
