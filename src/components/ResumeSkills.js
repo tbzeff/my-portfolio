@@ -1,23 +1,36 @@
 import React from 'react';
 
-import { Card } from 'react-bootstrap';
+import { Card, Container, Row, Col, Badge } from 'react-bootstrap';
 
 const ResumeSkills = () => (
     <Card className="info-box text-light bg-secondary border" style={{ width: '700px', borderRadius: '12px' }}>
         <Card.Title><strong>Skills</strong></Card.Title>
         <Card.Body>
-            <Card.Text>
-            The strengths I bring to any position include excellent communication, great problem-solving,
-            knowledge, and comfort with technology. Analytical thinking allows me to assess situations accurately,
-            create efficient plans of action, and find the tools I need to get the job done. The work I have done in
-            my Computer Science degree has prepared me for many different aspects of the field. I am comfortable
-            in the C++, Java, HTML, CSS and JavaScript programming languages. Android development in Java
-            and Kotlin, Haskell, SQLite and C# are a few more languages I’ve had experience with through my
-            studies. I gained much experience with version control using Git during my studies. I have also been
-            introduced to basic networking including basic router/switch configuration and troubleshooting. Other
-            skills include familiarity with the image editing software like Gimp, making basic 2D video games in
-            GameMaker Studio and some experience composing, recording and mixing with DAWs.
-            </Card.Text>
+            <Container>
+                <Row>
+                    <Col style={{ margin: '5px'}}>
+                        <Row><Badge pill bg="dark" style={{ margin: '5px' }}>C++</Badge></Row>
+                        <Row><Badge pill bg="dark" style={{ margin: '5px' }}>Java</Badge></Row>
+                        <Row><Badge pill bg="dark" style={{ margin: '5px' }}>HTML</Badge></Row>
+                        <Row><Badge pill bg="dark" style={{ margin: '5px' }}>SQL</Badge></Row>
+                        <Row><Badge pill bg="dark" style={{ margin: '5px' }}>C#</Badge></Row>
+                        <Row><Badge pill bg="dark" style={{ margin: '5px' }}>Python</Badge></Row>
+                        <Row><Badge pill bg="dark" style={{ margin: '5px' }}>Networking & Network Configuration</Badge></Row>
+                        <Row><Badge pill bg="dark" style={{ margin: '5px' }}>Microsoft .NET</Badge></Row>
+                        <Row><Badge pill bg="dark" style={{ margin: '5px' }}>Microsoft Office</Badge></Row>
+                    </Col>
+                    <Col style={{ margin: '5px'}}>
+                        <Row><Badge pill bg="dark" style={{ margin: '5px' }}>CSS</Badge></Row>
+                        <Row><Badge pill bg="dark" style={{ margin: '5px' }}>JavaScript</Badge></Row>
+                        <Row><Badge pill bg="dark" style={{ margin: '5px' }}>Android Development</Badge></Row>
+                        <Row><Badge pill bg="dark" style={{ margin: '5px' }}>Kotlin</Badge></Row>
+                        <Row><Badge pill bg="dark" style={{ margin: '5px' }}>Haskell</Badge></Row>
+                        <Row><Badge pill bg="dark" style={{ margin: '5px' }}>Git/Version Control</Badge></Row>
+                        <Row><Badge pill bg="dark" style={{ margin: '5px' }}>Gimp Photo Editing Software</Badge></Row>
+                        <Row><Badge pill bg="dark" style={{ margin: '5px' }}>DAWs (Digital Audio Workstations</Badge></Row>
+                    </Col>
+                </Row>
+            </Container>
         </Card.Body>
     </Card>
 )
