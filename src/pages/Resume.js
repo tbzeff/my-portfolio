@@ -6,7 +6,6 @@ import {
     Container, Col, Row,
 } from 'react-bootstrap';
 import ResumeTitle from '../components/ResumeTitle';
-import ResumeProfile from '../components/ResumeProfile';
 import ResumeSkills from '../components/ResumeSkills';
 import Education from '../components/Education';
 import PastEmployment from '../components/PastEmployment';
