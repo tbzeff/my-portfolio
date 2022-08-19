@@ -8,6 +8,11 @@ const ResumeTitle = () => (
         <Card.Title className="mt-3 m-auto text-center"><strong>Taylor Bleizeffer</strong></Card.Title>
         <Card.Body className="mb-3 m-auto">
             <Card.Text className="text-center">Software Engineer</Card.Text>
+            <Card.Text className="text-center">
+                <a href="https://www.taylorbleizeffer.com">Website</a>
+                <br />
+                <a href="mailto:taylorbleizeffer@gmail.com">E-mail</a>
+            </Card.Text>            
         </Card.Body>
     </Card>
 )

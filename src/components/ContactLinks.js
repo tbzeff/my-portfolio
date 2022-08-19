@@ -37,7 +37,7 @@ const ContactLinks = () => {
     }
 
     return (
-        <Nav className="m-auto mb-3 mt-3 bg-secondary border" style={{ width: '400px' }}>
+        <Nav className="m-auto mb-3 bg-secondary border" style={{ width: '700px' }}>
             <Nav.Item 
                 className={item1}
                 onMouseOver={ () => setHover1(true) }
@@ -45,7 +45,8 @@ const ContactLinks = () => {
             >
                 <Link
                     className="link-dark" 
-                    to="/resume" >
+                    to="/resume" 
+                    target="_blank" >
                     <strong>Resume</strong>
                 </Link>
             </Nav.Item>
