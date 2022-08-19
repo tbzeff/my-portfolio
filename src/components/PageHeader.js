@@ -1,7 +1,6 @@
 import React from 'react';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import selfie from './res/profile_pic3.jpg'
 import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';

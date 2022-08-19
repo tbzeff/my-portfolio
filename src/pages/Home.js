@@ -13,7 +13,7 @@ const Home = () => (
             
             <Row>
                 <Container className="d-flex justify-content-evenly" style={{ width: '700px' }}>
-                    <img src={selfie} style={{ width: '700px' }} />
+                    <img src={selfie} style={{ width: '700px' }} alt="Portrait of Taylor Bleizeffer"/>
                 </Container>
             </Row>
             <Row><ContactLinks /></Row>
