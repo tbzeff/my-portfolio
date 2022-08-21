@@ -45,8 +45,8 @@ const ContactLinks = () => {
             >
                 <Link
                     className="link-dark" 
-                    to="/resume" 
-                    target="_blank" >
+                    to="/resume"
+                    >
                     <strong>Resume</strong>
                 </Link>
             </Nav.Item>
