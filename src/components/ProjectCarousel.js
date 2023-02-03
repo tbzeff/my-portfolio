@@ -19,7 +19,7 @@ const ProjectCarousel = (props) => (
            <ProjectCard title="Senior Project" href="https://github.com/mckade/wfcm" img={senior_thumb} />
        </Carousel.Item>
        <Carousel.Item>
-           <ProjectCard title="Elementary Cellular Automata console program" href="https://github.com/tbzeff/CellularAutomata" img={elem_auto_thumb} />
+           <ProjectCard title="Simulating One-Dimensional Cellular Automata in Haskell" href="https://github.com/tbzeff/CellularAutomata" img={elem_auto_thumb} />
        </Carousel.Item>
        <Carousel.Item>
            <ProjectCard title="Simple Memory Game" href="/MemoryGame/main.html" img={memory_thumb} />
