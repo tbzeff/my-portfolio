@@ -11,16 +11,6 @@ const PageHeader = () => (
    
     
         <Row>
-            {/*
-            <Col>
-                <Card className= "m-auto bg-secondary border-0" style={{ width: '250px' }}> 
-                    <Card.Img className="mt-3" src={selfie} style={{ width: '250px'}} />
-                    <Card.Body className="m-auto" >
-                        <Card.Title variant="center"><strong>Taylor Bleizeffer</strong></Card.Title>
-                    </Card.Body>
-                </Card>
-            </Col>
-            */}
 
             <Col>
                 <Card className="m-auto p-auto bg-secondary border-0">

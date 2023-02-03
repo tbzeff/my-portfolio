@@ -28,7 +28,9 @@ const ProjectCard = (props) => {
                     className="link-dark"
                     onMouseOver={ () => setHover(true) }
                     onMouseOut={ () => setHover(false) }
-                    href={props.href}>
+                    href={props.href}
+                    rel="noreferrer noopener" 
+                    target="_blank">
                         {props.title}
                 </Card.Link>
             </Card.Title>
