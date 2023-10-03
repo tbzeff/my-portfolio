@@ -6,8 +6,6 @@ import senior_thumb from './res/proj_preview1.jpg';
 import elem_auto_thumb from './res/proj_preview3.jpg';
 import memory_thumb from './res/proj_preview4.jpg';
 import codewars_thumb from './res/proj_preview5.jpg';
-import garden_thumb from './res/androidlogo.jpg';
-import boop_thumb from './res/proj_preview6.jpg';
 import fata_thumb from './res/proj_preview2.jpg';
 
 import Carousel from 'react-bootstrap/Carousel';
