@@ -13,6 +13,20 @@ const PastEmployment = () => (
                         <Accordion>
                             <Accordion.Item eventKey="0" >
                                 <Accordion.Header>
+                                    <strong>Laboratory Technician, Standard Laboratories Inc. - Jan 2024 - June 2024:</strong>
+                                </Accordion.Header>
+                                <Accordion.Body>
+                                Perform various analyses on coal samples; follow detailed corporate and local procedures for carrying out analyses, 
+                                performing maintanence and various other laboratory activities; keep logs of analysis data, reagents/standard 
+                                reference materials currently in use, and maintainance performed; perform routine maintainance on analysis equipment 
+                                according to manufacturer specifications; calibrate analysis equipment in accordance with ASTM specifications 
+                                and manufacturer specifications; maintain a clean and organized work area; participate in inter-laboratory quality 
+                                control programs; analyze quality control data and investigate any present trends or biases; update local technical 
+                                procedures according to current ASTM specificatoins; keep logs of local procedure versions.
+                                </Accordion.Body>
+                            </Accordion.Item>
+                            <Accordion.Item eventKey="0" >
+                                <Accordion.Header>
                                     <strong>Student Researcher - Rochester Institute of Technology -- “Cultivating Next Generation Software Engineers” REU; Rochester, NY – May 2019 – August 2019:</strong>
                                 </Accordion.Header>
                                 <Accordion.Body>
