@@ -25,7 +25,7 @@ const PastEmployment = () => (
                                 procedures according to current ASTM specificatoins; keep logs of local procedure versions.
                                 </Accordion.Body>
                             </Accordion.Item>
-                            <Accordion.Item eventKey="0" >
+                            <Accordion.Item eventKey="1" >
                                 <Accordion.Header>
                                     <strong>Student Researcher - Rochester Institute of Technology -- “Cultivating Next Generation Software Engineers” REU; Rochester, NY – May 2019 – August 2019:</strong>
                                 </Accordion.Header>
@@ -36,7 +36,7 @@ const PastEmployment = () => (
                                 professors and other research teams.
                                 </Accordion.Body>
                             </Accordion.Item>
-                            <Accordion.Item eventKey="1">
+                            <Accordion.Item eventKey="2">
                                 <Accordion.Header>
                                 <strong>Video Technician, University of Wyoming Outreach School; Laramie, WY – Sep 2014 – June 2015:</strong>
                                 </Accordion.Header>
@@ -59,6 +59,20 @@ const PastEmployment = () => (
                         <Accordion>
                             <Accordion.Item eventKey="0">
                                 <Accordion.Header>
+                                <strong>Sandwich Steward, Lou's Italian Specialties - Jan 2023 - Aug 2023</strong>
+                                </Accordion.Header>
+                                <Accordion.Body>
+                                Maintain clean food-prep stations; greet customers and make them feel welcome and important; 
+                                take customer orders; construct sandwiches according to customer orders and menu; food prep 
+                                including slicing meat and vegetables, making canolli cream and deli salads; follow opening 
+                                and closing procedures making sure the restaurant is ready for the next shift; sweep, mop, 
+                                clean dishes and maintain a clean restaurant environment; organize food and ingredients according 
+                                to FIFO to maintain freshness and quality; fulfill orders and answer customer questions over the phone; 
+                                put together large catering orders in a timely manner.
+                                </Accordion.Body>
+                            </Accordion.Item>
+                            <Accordion.Item eventKey="1">
+                                <Accordion.Header>
                                 <strong>Delivery driver, Jimmy John’s; Laramie, WY – July 2017 – July 2020:</strong>
                                 </Accordion.Header>
                                 <Accordion.Body>
@@ -68,7 +82,7 @@ const PastEmployment = () => (
                                 complaints.
                                 </Accordion.Body>
                             </Accordion.Item>
-                            <Accordion.Item eventKey="1">
+                            <Accordion.Item eventKey="2">
                                 <Accordion.Header>
                                 <strong>Bassist, Fathom All the Animals; Denver, CO – Spring 2015 – Present:</strong>
                                 </Accordion.Header>
@@ -78,7 +92,7 @@ const PastEmployment = () => (
                                 practice; travel; networking with other musicians, promoters, venues, etc.
                                 </Accordion.Body>
                             </Accordion.Item>
-                            <Accordion.Item eventKey="2">
+                            <Accordion.Item eventKey="3">
                                 <Accordion.Header>
                                 <strong>Line server, Qdoba Mexican Grill; Casper, WY – Sep 2012 – Aug 2014, Dec 2015 – June 2016:</strong>
                                 </Accordion.Header>
@@ -89,7 +103,7 @@ const PastEmployment = () => (
                                 restaurant clean and presentable; paying attention to details.
                                 </Accordion.Body>
                             </Accordion.Item>
-                            <Accordion.Item eventKey="3">
+                            <Accordion.Item eventKey="4">
                                 <Accordion.Header>
                                 <strong>Delivery driver, Domino’s Pizza; Casper, WY – Jan 2015 – Feb 2015, Loveland CO – June 2016 –
                                 Sep 2016:</strong>
@@ -99,7 +113,7 @@ const PastEmployment = () => (
                                 team-oriented environment; answer or troubleshoot customer questions and complaints.</strong>
                                 </Accordion.Body>
                             </Accordion.Item>
-                            <Accordion.Item eventKey="4">
+                            <Accordion.Item eventKey="5">
                                 <Accordion.Header>
                                 <strong>Front Desk Clerk, C’mon Inn Hotel & Suites; Evansville, WY – June 2015 – Dec 2015:</strong>
                                 </Accordion.Header>
