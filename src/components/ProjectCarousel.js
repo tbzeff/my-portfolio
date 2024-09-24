@@ -26,7 +26,7 @@ const ProjectCarousel = (props) => (
            <ProjectCard title="Codewars Profile" href="https://www.codewars.com/users/T-Factorial" img={codewars_thumb} />
        </Carousel.Item>
        <Carousel.Item>
-           <ProjectCard title="Fathom All the Animals debut EP - To Kill a Songbird" href="https://open.spotify.com/album/078ew3gL8BLLpPopEx360I" img={fata_thumb} />
+           <ProjectCard title="Fathom All the Animals - To Kill a Songbird" href="https://open.spotify.com/album/078ew3gL8BLLpPopEx360I" img={fata_thumb} />
        </Carousel.Item>
     </Carousel>
 )
