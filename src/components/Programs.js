@@ -16,7 +16,7 @@ const Education = () => (
                         <Card.Title><strong>Cultivating Next Generation Software Engineering Researchers REU Program</strong></Card.Title>
                         <Card.Body>
                             <Card.Text>
-                            Rochester Institute ofTechnology – Rochester, NY. 2019
+                            Rochester Institute of Technology – Rochester, NY. 2019
                             </Card.Text>
                         </Card.Body>
                     </Card>
