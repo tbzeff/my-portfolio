@@ -26,7 +26,6 @@ const ResumeSkills = () => (
                         <Row><Badge pill bg="dark" style={{ margin: '5px' }}>Kotlin</Badge></Row>
                         <Row><Badge pill bg="dark" style={{ margin: '5px' }}>Haskell</Badge></Row>
                         <Row><Badge pill bg="dark" style={{ margin: '5px' }}>Git/Version Control</Badge></Row>
-                        <Row><Badge pill bg="dark" style={{ margin: '5px' }}>Gimp Photo Editing Software</Badge></Row>
                         <Row><Badge pill bg="dark" style={{ margin: '5px' }}>DAWs (Digital Audio Workstations</Badge></Row>
                         <Row><Badge pill bg="dark" style={{ margin: '5px' }}>ChatGPT</Badge></Row>
                     </Col>

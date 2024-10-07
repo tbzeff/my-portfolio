@@ -6,7 +6,7 @@ import {
     ListGroup
 } from 'react-bootstrap';
 
-const Education = () => (
+const Programs = () => (
     <Card className="info-box text-light bg-secondary border" style={{ width: '700px', borderRadius: '12px' }}>
         <Card.Title><strong>Internships & Institutes</strong></Card.Title>
         <Card.Body>
@@ -48,4 +48,4 @@ const Education = () => (
     </Card>
 )
 
-export default Education;
+export default Programs;
