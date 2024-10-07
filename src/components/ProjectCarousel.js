@@ -2,7 +2,7 @@ import React from 'react';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-// import senior_thumb from './res/proj_preview1.jpg';
+import senior_thumb from './res/proj_preview1.jpg';
 // import elem_auto_thumb from './res/proj_preview3.jpg';
 import memory_thumb from './res/proj_preview4.jpg';
 import codewars_thumb from './res/proj_preview5.jpg';
@@ -16,6 +16,9 @@ const ProjectCarousel = (props) => (
     <Carousel className="m-auto mb-5 bg-secondary border" style={{ width: '700px' }}>
        <Carousel.Item>
            <ProjectCard title="Taylor's GitHub" href="https://github.com/tbzeff" img={github_logo} />
+       </Carousel.Item>
+       <Carousel.Item>
+           <ProjectCard title="Senior Project: Probabilistic Music Randomizer" href="https://github.com/mckade/wfcm" img={senior_thumb} />
        </Carousel.Item>
        <Carousel.Item>
            <ProjectCard title="Simple Memory Game" href="/MemoryGame/main.html" img={memory_thumb} />
