@@ -7,7 +7,7 @@ import {
 } from 'react-bootstrap';
 
 const Education = () => (
-    <Card className="info-box text-light bg-secondary border" style={{ borderRadius: '12px' }}>
+    <Card className="info-box text-light bg-secondary border card-custom">
         <Card.Title><strong>Education</strong></Card.Title>
         <Card.Body>
             <ListGroup>

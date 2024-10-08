@@ -12,7 +12,7 @@ const Home = () => (
         <Col className="m-auto col-md-6">
             
             <Row>
-                <Container className="d-flex justify-content-evenly">
+                <Container className="d-flex justify-content-evenly mt-3 card-custom">
                     <img className="img-fluid" src={selfie} alt="Portrait of Taylor Bleizeffer"/>
                 </Container>
             </Row>

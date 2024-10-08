@@ -7,9 +7,8 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 const PageHeader = () => (    
-    <Container className="m-auto d-flex justify-content-evenly mb-3 bg-secondary border" style={{ borderRadius: "12px" }}>
-   
-    
+    <Container className="m-auto d-flex justify-content-evenly mb-3 bg-secondary border card-custom">
+
         <Row>
             <Col>
                 <Card className="m-auto p-auto bg-secondary border-0">
@@ -22,8 +21,7 @@ const PageHeader = () => (
                 </Card>    
             </Col>
         </Row>
-    
-           
+               
     </Container>
 )
 

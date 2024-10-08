@@ -37,7 +37,7 @@ const ContactLinks = () => {
     }
 
     return (
-        <Nav className="m-auto mb-3 mt-3 bg-secondary border" style={{ borderRadius: "12px" }}>
+        <Nav className="m-auto mb-3 mt-3 bg-secondary border card-custom">
             <Nav.Item 
                 className={item1}
                 onMouseOver={ () => setHover1(true) }

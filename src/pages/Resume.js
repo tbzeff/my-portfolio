@@ -28,7 +28,7 @@ const Resume = () => (
 
     <Container className="bg-dark" style={containerstyle} fluid>
         <Col className="list-box m-auto col-md-5">
-            <Row className="mb-3 m-auto" style={titlestyle}><ResumeTitle /></Row>            
+            <Row className="mb-3 mt-3 m-auto" style={titlestyle}><ResumeTitle /></Row>            
             <Row className="mb-3 m-auto"><ResumeSkills /></Row>            
             <Row className="mb-3 m-auto"><Education /></Row>             
             <Row className="mb-3 m-auto"><PastEmployment /></Row>

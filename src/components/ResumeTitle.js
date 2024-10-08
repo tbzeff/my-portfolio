@@ -5,7 +5,7 @@ import { Card } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 const ResumeTitle = () => (
-    <Card className="m-auto text-light bg-secondary border" style={{ borderRadius: '12px' }}>
+    <Card className="m-auto text-light bg-secondary card-custom border">
         <Card.Title className="mt-3 m-auto text-center"><strong>Taylor Bleizeffer</strong></Card.Title>
         <Card.Body className="mb-3 m-auto">
             <Card.Text className="text-center">Software Engineer</Card.Text>
