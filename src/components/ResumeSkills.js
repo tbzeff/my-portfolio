@@ -3,7 +3,7 @@ import React from 'react';
 import { Card, Container, Row, Col, Badge } from 'react-bootstrap';
 
 const ResumeSkills = () => (
-    <Card className="info-box text-light bg-secondary border" style={{ width: '700px', borderRadius: '12px' }}>
+    <Card className="info-box text-light bg-secondary border" style={{ borderRadius: '12px' }}>
         <Card.Title><strong>Skills</strong></Card.Title>
         <Card.Body>
             <Container>

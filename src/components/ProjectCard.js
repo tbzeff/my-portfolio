@@ -20,10 +20,10 @@ const ProjectCard = (props) => {
     }
 
     return (
-    <Card className="m-auto mb-5 mt-5 border-0" style={{ width: '300px', height: '300px' }}>
+    <Card className="m-auto mb-5 mt-5 border" style={{ width: '300px', height: '300px' }}>
         <Card.Img style={{ width: '300px', height: '225px' }} src={props.img} />
-        <Card.Body className="bg-dark" fluid>
-            <Card.Title className={titleclass} fluid>
+        <Card.Body className="bg-dark border" fluid>
+            <Card.Title className={"p-1 text-center " + titleclass} style={{ borderRadius: "12px" }} fluid>
                 <Card.Link
                     className="link-dark"
                     onMouseOver={ () => setHover(true) }

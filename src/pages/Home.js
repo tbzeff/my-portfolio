@@ -8,11 +8,11 @@ import ContactLinks from '../components/ContactLinks';
 import ProjectCarousel from '../components/ProjectCarousel';
 
 const Home = () => (
-    <Container className="bg-dark" style={{ height: '150vh' }} fluid>
-        <Col className="m-auto">
+    <Container className="bg-dark" fluid>
+        <Col className="m-auto col-md-6">
             
             <Row>
-                <Container className="d-flex justify-content-evenly" style={{ width: '700px' }}>
+                <Container className="d-flex justify-content-evenly">
                     <img className="img-fluid" src={selfie} alt="Portrait of Taylor Bleizeffer"/>
                 </Container>
             </Row>

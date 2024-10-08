@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Card, Accordion, Container, Col, Row } from 'react-bootstrap';
 
 const PastEmployment = () => (
-    <Container className="m-auto d-flex justify-content-evenly mb-3 bg-secondary border" style={{ width: '700px', borderRadius: '12px' }}>
+    <Container className="m-auto d-flex justify-content-evenly mb-3 bg-secondary border" style={{ borderRadius: '12px' }}>
         <Col>
             <Row>
                 <Card className="info-box bg-secondary border-0" style={{ borderRadius: '12px' }}>
