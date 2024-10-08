@@ -1,6 +1,7 @@
 import React from 'react';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './../index.css'
 import { Card, Accordion, Container, Col, Row } from 'react-bootstrap';
 
 const PastEmployment = () => (
