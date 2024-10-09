@@ -20,9 +20,9 @@ const ProjectCard = (props) => {
     }
 
     return (
-    <Card className="m-auto mb-5 mt-5 border card-custom bg-dark" style={{ width: '300px', height: '300px' }}>
-        <Card.Img style={{ width: '298px', height: '225px', objectFit: 'cover', borderRadius: '12px' }} src={props.img} />
-        <Card.Body className="bg-dark card-custom border" fluid>
+    <Card className="m-auto mb-5 mt-5 card-custom bg-dark border" style={{ width: '300px', height: '300px', borderRadius: '12px' }}>
+        <Card.Img className="card-custom" style={{ width: '298px', height: '225px', objectFit: 'cover', borderRadius: '12px' }} src={props.img} />
+        <Card.Body className="bg-dark card-custom border" style={{width: '298px', height: '25px'}} fluid>
             <Card.Title className={"m-auto p-1 text-center " + titleclass} style={{ borderRadius: "12px", fontSize: '16px' }} fluid>
                 <Card.Link
                     className="link-dark"

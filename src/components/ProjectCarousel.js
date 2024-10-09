@@ -14,19 +14,19 @@ import ProjectCard from './ProjectCard';
 
 const ProjectCarousel = (props) => (
     <Carousel className="m-auto mb-5 bg-secondary border card-custom">
-       <Carousel.Item>
+       <Carousel.Item className="card-custom">
            <ProjectCard title="Taylor's GitHub" href="https://github.com/tbzeff" img={github_logo} />
        </Carousel.Item>
-       <Carousel.Item>
+       <Carousel.Item className="card-custom">
            <ProjectCard title="Senior Project: Probabilistic Music Randomizer" href="https://github.com/mckade/wfcm" img={senior_thumb} />
        </Carousel.Item>
-       <Carousel.Item>
+       <Carousel.Item className="card-custom">
            <ProjectCard title="Simple Memory Game" href="/MemoryGame/main.html" img={memory_thumb} />
        </Carousel.Item>
-       <Carousel.Item>
+       <Carousel.Item className="card-custom">
            <ProjectCard title="Codewars Profile" href="https://www.codewars.com/users/T-Factorial" img={codewars_thumb} />
        </Carousel.Item>
-       <Carousel.Item>
+       <Carousel.Item className="card-custom">
            <ProjectCard title="Fathom All the Animals - To Kill a Songbird" href="https://open.spotify.com/album/078ew3gL8BLLpPopEx360I" img={fata_thumb} />
        </Carousel.Item>
     </Carousel>
