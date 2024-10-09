@@ -39,7 +39,7 @@ const ContactLinks = () => {
     return (
         <Nav className="m-auto mb-3 mt-3 bg-secondary border card-custom">
             <Nav.Item 
-                className={item1}
+                className={item1 + " hover-effect"}
                 onMouseOver={ () => setHover1(true) }
                 onMouseOut={ () => setHover1(false) }
             >
@@ -51,7 +51,7 @@ const ContactLinks = () => {
                 </Link>
             </Nav.Item>
             <Nav.Item 
-                className={item2}
+                className={item2 + " hover-effect"}
                 onMouseOver={ () => setHover2(true) }
                 onMouseOut={ () => setHover2(false) }
             >
@@ -64,7 +64,7 @@ const ContactLinks = () => {
                 </Nav.Link>
             </Nav.Item>
             <Nav.Item 
-                className={item3}
+                className={item3 + " hover-effect"}
                 onMouseOver={ () => setHover3(true) }
                 onMouseOut={ () => setHover3(false) }
             >
