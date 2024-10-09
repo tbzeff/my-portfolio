@@ -39,19 +39,19 @@ const ContactLinks = () => {
     return (
         <Nav className="m-auto mb-3 mt-3 bg-secondary border card-custom">
             <Nav.Item 
-                className={item1 + " hover-effect"}
+                className={item1 + " hover-effect card-custom"}
                 onMouseOver={ () => setHover1(true) }
                 onMouseOut={ () => setHover1(false) }
             >
                 <Link
-                    className="link-dark" 
+                    className="link-dark card-custom" 
                     to="/resume"
                     >
                     <strong>Resume</strong>
                 </Link>
             </Nav.Item>
             <Nav.Item 
-                className={item2 + " hover-effect"}
+                className={item2 + " hover-effect card-custom"}
                 onMouseOver={ () => setHover2(true) }
                 onMouseOut={ () => setHover2(false) }
             >
@@ -64,7 +64,7 @@ const ContactLinks = () => {
                 </Nav.Link>
             </Nav.Item>
             <Nav.Item 
-                className={item3 + " hover-effect"}
+                className={item3 + " hover-effect card-custom"}
                 onMouseOver={ () => setHover3(true) }
                 onMouseOut={ () => setHover3(false) }
             >
