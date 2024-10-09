@@ -5,10 +5,10 @@ import './../index.css'
 import { Card, Accordion, Container, Col, Row } from 'react-bootstrap';
 
 const PastEmployment = () => (
-    <Container className="m-auto d-flex justify-content-evenly mb-3 bg-secondary border card-custom">
+    <Container className="m-auto d-flex justify-content-evenly mb-3 bg-secondary border resume-card-custom">
         <Col>
             <Row>
-                <Card className="info-box bg-secondary border-0 card-custom">
+                <Card className="info-box bg-secondary border-0 resume-card-custom">
                     <Card.Title className="text-light"><strong>Professional Experience</strong></Card.Title>
                     <Card.Body>
                         <Accordion>
@@ -54,7 +54,7 @@ const PastEmployment = () => (
                 </Card>
             </Row>
             <Row>
-                <Card className="info-box bg-secondary border-0 card-custom">
+                <Card className="info-box bg-secondary border-0 resume-card-custom">
                     <Card.Title className="text-light"><strong>Non-Professional Experience</strong></Card.Title>
                     <Card.Body>
                         <Accordion>
