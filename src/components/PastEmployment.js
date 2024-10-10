@@ -5,7 +5,7 @@ import './../index.css'
 import { Card, Accordion, Container, Col, Row } from 'react-bootstrap';
 
 const PastEmployment = () => (
-    <Container className="m-auto d-flex justify-content-evenly mb-3 csecondary border resume-card-custom">
+    <Container className="m-auto d-flex justify-content-evenly csecondary border resume-card-custom">
         <Col>
             <Row>
                 <Card className="info-box csecondary border-0 resume-card-custom">
