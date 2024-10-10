@@ -45,7 +45,7 @@ const ContactLinks = () => {
             >
                 <Nav.Link
                     className="link-dark clink" 
-                    href="/resume"
+                    href="https://www.taylorbleizeffer.com/resume"
                     >
                     <strong>Resume</strong>
                 </Nav.Link>
