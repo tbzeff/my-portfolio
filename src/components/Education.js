@@ -7,12 +7,12 @@ import {
 } from 'react-bootstrap';
 
 const Education = () => (
-    <Card className="info-box text-light bg-secondary border resume-card-custom">
+    <Card className="info-box ctext csecondary border resume-card-custom">
         <Card.Title><strong>Education</strong></Card.Title>
         <Card.Body>
             <ListGroup>
-                <ListGroup.Item className="bg-secondary" >
-                    <Card className="text-light bg-secondary">
+                <ListGroup.Item className="csecondary border-0">
+                    <Card className="ctext csecondary border-0">
                         <Card.Title><strong>University of Wyoming - Laramie, WY</strong></Card.Title>
                         <Card.Body>
                             <Card.Text >
@@ -22,8 +22,8 @@ const Education = () => (
                     </Card>
                 </ListGroup.Item>
             
-                <ListGroup.Item className="bg-secondary" >
-                    <Card className="text-light bg-secondary">
+                <ListGroup.Item className="csecondary border-0">
+                    <Card className="ctext csecondary border-0">
                         <Card.Title><strong>Casper College - Casper, WY</strong></Card.Title>
                         <Card.Body>
                             <Card.Text>
@@ -33,8 +33,8 @@ const Education = () => (
                     </Card>
                 </ListGroup.Item>
 
-                <ListGroup.Item className="bg-secondary">
-                    <Card className="text-light bg-secondary">
+                <ListGroup.Item className="csecondary border-0">
+                    <Card className="ctext csecondary border-0">
                         <Card.Title><strong>Kelly Walsh High School - Casper, WY</strong></Card.Title>
                         <Card.Body>
                             <Card.Text>

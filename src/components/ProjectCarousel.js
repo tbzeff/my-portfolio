@@ -13,7 +13,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import ProjectCard from './ProjectCard';
 
 const ProjectCarousel = (props) => (
-    <Carousel className="m-auto mb-5 bg-secondary border card-custom">
+    <Carousel className="m-auto mb-5 csecondary border card-custom">
        <Carousel.Item className="card-custom">
            <ProjectCard title="Taylor's GitHub" href="https://github.com/tbzeff" img={github_logo} />
        </Carousel.Item>

@@ -7,12 +7,12 @@ import {
 } from 'react-bootstrap';
 
 const Programs = () => (
-    <Card className="info-box text-light bg-secondary border resume-card-custom">
+    <Card className="info-box ctext csecondary border resume-card-custom">
         <Card.Title><strong>Internships & Institutes</strong></Card.Title>
         <Card.Body>
             <ListGroup className="info-box">
-                <ListGroup.Item className="bg-secondary">
-                    <Card className="text-light bg-secondary">
+                <ListGroup.Item className="csecondary border-0">
+                    <Card className="ctext csecondary border-0">
                         <Card.Title><strong>Cultivating Next Generation Software Engineering Researchers REU Program</strong></Card.Title>
                         <Card.Body>
                             <Card.Text>
@@ -22,8 +22,8 @@ const Programs = () => (
                     </Card>
                 </ListGroup.Item>
             
-                <ListGroup.Item className="bg-secondary">
-                    <Card className="text-light bg-secondary">
+                <ListGroup.Item className="csecondary border-0">
+                    <Card className="ctext csecondary border-0">
                         <Card.Title><strong>School of Energy Resources Summer Camp</strong></Card.Title>
                         <Card.Body>
                             <Card.Text>
@@ -33,8 +33,8 @@ const Programs = () => (
                     </Card>
                 </ListGroup.Item>
 
-                <ListGroup.Item className="bg-secondary">
-                    <Card className="text-light bg-secondary">
+                <ListGroup.Item className="csecondary border-0">
+                    <Card className="ctext csecondary border-0">
                         <Card.Title><strong>Awakening Summer Internship</strong></Card.Title>
                         <Card.Body>
                             <Card.Text>

@@ -9,8 +9,8 @@ const ProjectCard = (props) => {
 
     let titleclass = "";
 
-    const itemclass1 = "m-auto bg-secondary border";
-    const itemclass2 = "m-auto bg-light border";
+    const itemclass1 = "m-auto csecondary border";
+    const itemclass2 = "m-auto caccent border";
 
     if (hover) {
         titleclass = itemclass2;
@@ -20,12 +20,12 @@ const ProjectCard = (props) => {
     }
 
     return (
-    <Card className="m-auto mb-5 mt-5 card-custom bg-dark border" style={{ width: '300px', height: '300px', borderRadius: '12px' }}>
+    <Card className="m-auto mb-5 mt-5 card-custom cprimary border" style={{ width: '300px', height: '300px', borderRadius: '12px' }}>
         <Card.Img className="card-custom" style={{ width: '298px', height: '225px', objectFit: 'cover', borderRadius: '12px' }} src={props.img} />
-        <Card.Body className="m-auto bg-dark card-custom border" style={{width: '298px', height: '25px'}} fluid>
+        <Card.Body className="m-auto cprimary card-custom border" style={{width: '298px', height: '25px'}} fluid>
             <Card.Title className={"m-auto p-1 text-center hover-effect " + titleclass} style={{ borderRadius: "12px", fontSize: '16px' }} fluid>
                 <Card.Link
-                    className="link-dark"
+                    className="link-dark clink"
                     onMouseOver={ () => setHover(true) }
                     onMouseOut={ () => setHover(false) }
                     href={props.href}

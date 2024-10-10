@@ -8,7 +8,7 @@ import ContactLinks from '../components/ContactLinks';
 import ProjectCarousel from '../components/ProjectCarousel';
 
 const Home = () => (
-    <Container className="bg-dark" fluid>
+    <Container className="cprimary" fluid>
         <Col className="m-auto col-md-6">
             
             <Row>

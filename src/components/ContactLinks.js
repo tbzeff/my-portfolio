@@ -1,7 +1,7 @@
 import React from 'react';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Link } from 'react-router-dom';
+//import { Link } from 'react-router-dom';
 import Nav from 'react-bootstrap/Nav';
 
 const ContactLinks = () => {
@@ -11,7 +11,7 @@ const ContactLinks = () => {
     const [hover3,setHover3] = React.useState(false);
 
     const itemclass1 = "m-auto";
-    const itemclass2 = "m-auto bg-light";
+    const itemclass2 = "m-auto caccent";
 
     let item1, item2, item3 = "";
 
@@ -37,14 +37,14 @@ const ContactLinks = () => {
     }
 
     return (
-        <Nav className="m-auto mb-3 mt-3 pt-1 pb-1 bg-secondary border card-custom">
+        <Nav className="m-auto mb-3 mt-3 pt-1 pb-1 csecondary border card-custom">
             <Nav.Item 
                 className={item1 + " hover-effect card-custom"}
                 onMouseOver={ () => setHover1(true) }
                 onMouseOut={ () => setHover1(false) }
             >
                 <Nav.Link
-                    className="link-dark" 
+                    className="link-dark clink" 
                     href="/resume"
                     >
                     <strong>Resume</strong>
@@ -56,7 +56,7 @@ const ContactLinks = () => {
                 onMouseOut={ () => setHover2(false) }
             >
                 <Nav.Link 
-                    className="link-dark" 
+                    className="link-dark clink" 
                     href="mailto:taylorbleizeffer@gmail.com" 
                     rel="noreferrer noopener" 
                     target="_blank" >
@@ -69,7 +69,7 @@ const ContactLinks = () => {
                 onMouseOut={ () => setHover3(false) }
             >
                 <Nav.Link 
-                    className="link-dark" 
+                    className="link-dark clink" 
                     href="https://www.linkedin.com/in/taylor-bleizeffer/" 
                     rel="noreferrer noopener" 
                     target="_blank" >

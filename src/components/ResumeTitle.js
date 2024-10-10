@@ -37,20 +37,20 @@ const ResumeTitle = () => {
     }
 
     return (
-    <Card className="m-auto text-light bg-secondary resume-card-custom border">
-        <Card.Title className="mt-3 m-auto text-center"><strong>Taylor Bleizeffer</strong></Card.Title>
+    <Card className="m-auto ctext csecondary resume-card-custom border">
+        <Card.Title className="mt-3 m-auto text-center ctext"><strong>Taylor Bleizeffer</strong></Card.Title>
         <Card.Body className="mb-3 m-auto">
-            <Card.Text className="text-center">Software Engineer</Card.Text>
+            <Card.Text className="text-center ctext">Software Engineer</Card.Text>
             <Card.Text className="text-center">
                 <Link 
-                    className={item1 + " link-dark resume-card-custom hover-effect"}
+                    className={item1 + " clink resume-card-custom hover-effect"}
                     onMouseOver={ () => setHover1(true) }
                     onMouseOut={ () => setHover1(false) } 
                     to="/" ><strong>Website Home</strong>
                 </Link>
                 <br />
                 <a 
-                    className={item2 + " link-dark resume-card-custom hover-effect"}
+                    className={item2 + " clink resume-card-custom hover-effect"}
                     href="mailto:taylorbleizeffer@gmail.com" 
                     rel="noreferrer noopener" 
                     target="_blank"
@@ -60,7 +60,7 @@ const ResumeTitle = () => {
                 </a>
                 <br />
                 <a 
-                    className={item3 + " link-dark resume-card-custom hover-effect"}
+                    className={item3 + " clink resume-card-custom hover-effect"}
                     href="https://www.linkedin.com/in/taylor-bleizeffer/" 
                     rel="noreferrer noopener" 
                     target="_blank"

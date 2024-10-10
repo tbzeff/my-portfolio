@@ -7,6 +7,34 @@
   pointer-events: none;
 }
 
+:root {
+  --primary-color: #004225; /* Dark green, or any color you prefer */
+  --secondary-color: #f5f5f5; /* Light gray or background color */
+  --accent-color: #ff6347; /* Accent color, e.g., red */
+  --text-color: #333; /* General text color */
+  --link-color: #1e90ff; /* Link color */
+}
+
+.cprimary {
+  background-color: var(--primary-color);
+}
+
+.csecondary {
+  background-color: var(--secondary-color);
+}
+
+.caccent {
+  background-color: var(--accent-color);
+}
+
+.ctext {
+  color: var(--text-color);
+}
+
+.clink {
+  color: var(--link-color);
+}
+
 .card-custom {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   border-radius: 12px;
