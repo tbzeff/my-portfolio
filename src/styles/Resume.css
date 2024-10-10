@@ -8,11 +8,11 @@
 }
 
 :root {
-  --primary-color: #004225; /* Dark green, or any color you prefer */
-  --secondary-color: #f5f5f5; /* Light gray or background color */
-  --accent-color: #ff6347; /* Accent color, e.g., red */
-  --text-color: #333; /* General text color */
-  --link-color: #1e90ff; /* Link color */
+  --primary-color: #2274a5; /* Dark green, or any color you prefer */
+  --secondary-color: #e7dfc6; /* Light gray or background color */
+  --accent-color: #e9f1f7; /* Accent color, e.g., red */
+  --text-color: #131b23; /* General text color */
+  --link-color: #816c61; /* Link color */
 }
 
 .cprimary {
