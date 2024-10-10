@@ -1,7 +1,7 @@
 import React from 'react';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-//import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import Nav from 'react-bootstrap/Nav';
 
 const ContactLinks = () => {
@@ -42,13 +42,14 @@ const ContactLinks = () => {
                 className={item1 + " hover-effect card-custom"}
                 onMouseOver={ () => setHover1(true) }
                 onMouseOut={ () => setHover1(false) }
+                style={{padding: "0.5rem"}}
             >
-                <Nav.Link
-                    className="link-dark clink" 
-                    href="https://www.taylorbleizeffer.com/resume"
+                <Link
+                    className="clink" 
+                    to="/resume"
                     >
                     <strong>Resume</strong>
-                </Nav.Link>
+                </Link>
             </Nav.Item>
             <Nav.Item 
                 className={item2 + " hover-effect card-custom"}
@@ -56,7 +57,7 @@ const ContactLinks = () => {
                 onMouseOut={ () => setHover2(false) }
             >
                 <Nav.Link 
-                    className="link-dark clink" 
+                    className="clink" 
                     href="mailto:taylorbleizeffer@gmail.com" 
                     rel="noreferrer noopener" 
                     target="_blank" >
