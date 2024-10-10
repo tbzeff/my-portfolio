@@ -70,7 +70,7 @@ const ContactLinks = () => {
                 onMouseOut={ () => setHover3(false) }
             >
                 <Nav.Link 
-                    className="link-dark clink" 
+                    className="clink" 
                     href="https://www.linkedin.com/in/taylor-bleizeffer/" 
                     rel="noreferrer noopener" 
                     target="_blank" >
