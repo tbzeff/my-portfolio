@@ -8,7 +8,7 @@ import {
 
 const Education = () => (
     <Card className="info-box ctext csecondary border resume-card-custom">
-        <Card.Title><strong>Education</strong></Card.Title>
+        <Card.Title className="mt-3 ms-3 text-underline ctext"><strong>Education</strong></Card.Title>
         <Card.Body>
             <ListGroup>
                 <ListGroup.Item className="csecondary border-0">

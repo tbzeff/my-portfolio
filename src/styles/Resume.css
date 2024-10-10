@@ -39,6 +39,10 @@
   color: var(--link-color);
 }
 
+.text-underline {
+  text-decoration: underline;
+}
+
 .resume-card-custom {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   border-radius: 12px;

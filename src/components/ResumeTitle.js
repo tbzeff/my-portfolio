@@ -38,7 +38,7 @@ const ResumeTitle = () => {
 
     return (
     <Card className="m-auto ctext csecondary resume-card-custom border">
-        <Card.Title className="mt-3 m-auto text-center ctext"><strong>Taylor Bleizeffer</strong></Card.Title>
+        <Card.Title className="mt-3 m-auto text-center ctext text-underline"><strong>Taylor Bleizeffer</strong></Card.Title>
         <Card.Body className="mb-3 m-auto">
             <Card.Text className="text-center ctext">Software Engineer</Card.Text>
             <Card.Text className="text-center">

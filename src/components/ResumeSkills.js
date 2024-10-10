@@ -4,7 +4,7 @@ import { Card, Container, Row, Col, Badge } from 'react-bootstrap';
 
 const ResumeSkills = () => (
     <Card className="info-box ctext csecondary border resume-card-custom">
-        <Card.Title><strong>Skills</strong></Card.Title>
+        <Card.Title className="mt-3 ms-3 text-underline ctext"><strong>Skills</strong></Card.Title>
         <Card.Body>
             <Container>
                 <Row>

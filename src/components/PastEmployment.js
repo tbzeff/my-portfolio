@@ -9,7 +9,7 @@ const PastEmployment = () => (
         <Col>
             <Row>
                 <Card className="info-box csecondary border-0 resume-card-custom">
-                    <Card.Title className="ctext"><strong>Professional Experience</strong></Card.Title>
+                    <Card.Title className="mt-3 ms-3 text-underline ctext"><strong>Professional Experience</strong></Card.Title>
                     <Card.Body>
                         <Accordion>
                             <Accordion.Item eventKey="0" >
@@ -55,7 +55,7 @@ const PastEmployment = () => (
             </Row>
             <Row>
                 <Card className="info-box csecondary border-0 resume-card-custom">
-                    <Card.Title className="ctext"><strong>Non-Professional Experience</strong></Card.Title>
+                    <Card.Title className="ms-3 text-underline ctext"><strong>Non-Professional Experience</strong></Card.Title>
                     <Card.Body>
                         <Accordion>
                             <Accordion.Item eventKey="0">

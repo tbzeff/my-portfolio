@@ -40,6 +40,10 @@
   border-radius: 12px;
 }
 
+.text-underline {
+  text-decoration: underline;
+}
+
 .hover-effect {
   transition: all 0.3s ease;
 }
