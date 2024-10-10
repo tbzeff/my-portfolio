@@ -43,12 +43,12 @@ const ContactLinks = () => {
                 onMouseOver={ () => setHover1(true) }
                 onMouseOut={ () => setHover1(false) }
             >
-                <Link
-                    className="link-dark card-custom" 
-                    to="/resume"
+                <Nav.Link
+                    className="link-dark" 
+                    href="/resume"
                     >
                     <strong>Resume</strong>
-                </Link>
+                </Nav.Link>
             </Nav.Item>
             <Nav.Item 
                 className={item2 + " hover-effect card-custom"}
