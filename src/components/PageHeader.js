@@ -15,7 +15,7 @@ const PageHeader = () => (
                     <Card.Body className="m-auto">
                         <Card.Title className="text-center ctext" variant="center"><strong>Taylor Bleizeffer</strong></Card.Title> 
                         <Card.Text className="fw-bold ctext">
-                        A recent Computer Science graduate from the University of Wyoming who is deeply curious about the inner-workings of the world. With an academic background in computation and research, and personal background in music and entertainment, I'm always ready to approach problems with an open mind.
+                        A Computer Science graduate from the University of Wyoming who is deeply curious about the inner-workings of the world. With an academic background in computation and research, and personal background in music and entertainment, I'm always ready to approach problems with an open mind.
                         </Card.Text>
                     </Card.Body>
                 </Card>    

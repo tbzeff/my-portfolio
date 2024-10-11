@@ -25,7 +25,7 @@ const ProjectCard = (props) => {
         <Card.Body className="m-auto cprimary card-custom border" style={{width: '298px', height: '25px'}} fluid>
             <Card.Title className={"m-auto p-1 text-center hover-effect " + titleclass} style={{ borderRadius: "12px", fontSize: '16px' }} fluid>
                 <Card.Link
-                    className="link-dark clink"
+                    className="clink"
                     onMouseOver={ () => setHover(true) }
                     onMouseOut={ () => setHover(false) }
                     href={props.href}
