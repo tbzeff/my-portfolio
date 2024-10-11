@@ -28,7 +28,7 @@
 }
 
 .caccent.badge {
-  background-color: var(--accent-color) !important
+  background-color: var(--accent-color) !important;
 }
 
 .ctext {
@@ -46,4 +46,14 @@
 .resume-card-custom {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   border-radius: 12px;
+}
+
+.accordion-button.collapsed {
+  background-color: var(--accent-color) !important;
+  color: var(--text-color) !important;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: var(--accent-color) !important;
+  color: var(--text-color) !important;
 }

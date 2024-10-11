@@ -12,11 +12,11 @@ const PastEmployment = () => (
                     <Card.Title className="mt-3 ms-3 text-underline ctext"><strong>Professional Experience</strong></Card.Title>
                     <Card.Body>
                         <Accordion>
-                            <Accordion.Item eventKey="0" >
+                            <Accordion.Item eventKey="0" className="caccent ctext">
                                 <Accordion.Header>
                                     <strong>Laboratory Technician, Standard Laboratories Inc. - Jan 2024 - June 2024:</strong>
                                 </Accordion.Header>
-                                <Accordion.Body>
+                                <Accordion.Body> 
                                 Perform various analyses on coal samples; follow detailed corporate and local procedures for carrying out analyses, 
                                 performing maintanence and various other laboratory activities; keep logs of analysis data, reagents/standard 
                                 reference materials currently in use, and maintainance performed; perform routine maintainance on analysis equipment 
@@ -26,7 +26,7 @@ const PastEmployment = () => (
                                 procedures according to current ASTM specificatoins; keep logs of local procedure versions.
                                 </Accordion.Body>
                             </Accordion.Item>
-                            <Accordion.Item eventKey="1" >
+                            <Accordion.Item eventKey="1" className="caccent ctext">
                                 <Accordion.Header>
                                     <strong>Student Researcher - Rochester Institute of Technology -- “Cultivating Next Generation Software Engineers” REU; Rochester, NY – May 2019 – August 2019:</strong>
                                 </Accordion.Header>
@@ -37,7 +37,7 @@ const PastEmployment = () => (
                                 professors and other research teams.
                                 </Accordion.Body>
                             </Accordion.Item>
-                            <Accordion.Item eventKey="2">
+                            <Accordion.Item eventKey="2" className="caccent ctext">
                                 <Accordion.Header>
                                 <strong>Video Technician, University of Wyoming Outreach School; Laramie, WY – Sep 2014 – June 2015:</strong>
                                 </Accordion.Header>
@@ -58,7 +58,7 @@ const PastEmployment = () => (
                     <Card.Title className="ms-3 text-underline ctext"><strong>Non-Professional Experience</strong></Card.Title>
                     <Card.Body>
                         <Accordion>
-                            <Accordion.Item eventKey="0">
+                            <Accordion.Item eventKey="0" className="caccent ctext">
                                 <Accordion.Header>
                                 <strong>Sandwich Steward, Lou's Italian Specialties - Jan 2023 - Aug 2023</strong>
                                 </Accordion.Header>
@@ -72,7 +72,7 @@ const PastEmployment = () => (
                                 put together large catering orders in a timely manner.
                                 </Accordion.Body>
                             </Accordion.Item>
-                            <Accordion.Item eventKey="1">
+                            <Accordion.Item eventKey="1" className="caccent ctext">
                                 <Accordion.Header>
                                 <strong>Delivery driver, Jimmy John’s; Laramie, WY – July 2017 – July 2020:</strong>
                                 </Accordion.Header>
@@ -82,7 +82,7 @@ const PastEmployment = () => (
                                 complaints.
                                 </Accordion.Body>
                             </Accordion.Item>
-                            <Accordion.Item eventKey="2">
+                            <Accordion.Item eventKey="2" className="caccent ctext">
                                 <Accordion.Header>
                                 <strong>Bassist, Fathom All the Animals; Denver, CO – Spring 2015 – Present:</strong>
                                 </Accordion.Header>
@@ -92,7 +92,7 @@ const PastEmployment = () => (
                                 practice; travel; networking with other musicians, promoters, venues, etc.
                                 </Accordion.Body>
                             </Accordion.Item>
-                            <Accordion.Item eventKey="3">
+                            <Accordion.Item eventKey="3" className="caccent ctext">
                                 <Accordion.Header>
                                 <strong>Line server, Qdoba Mexican Grill; Casper, WY – Sep 2012 – Aug 2014, Dec 2015 – June 2016:</strong>
                                 </Accordion.Header>
@@ -103,7 +103,7 @@ const PastEmployment = () => (
                                 restaurant clean and presentable; paying attention to details.
                                 </Accordion.Body>
                             </Accordion.Item>
-                            <Accordion.Item eventKey="4">
+                            <Accordion.Item eventKey="4" className="caccent ctext">
                                 <Accordion.Header>
                                 <strong>Delivery driver, Domino’s Pizza; Casper, WY – Jan 2015 – Feb 2015, Loveland CO – June 2016 –
                                 Sep 2016:</strong>
@@ -113,7 +113,7 @@ const PastEmployment = () => (
                                 team-oriented environment; answer or troubleshoot customer questions and complaints.
                                 </Accordion.Body>
                             </Accordion.Item>
-                            <Accordion.Item eventKey="5">
+                            <Accordion.Item eventKey="5" className="caccent ctext">
                                 <Accordion.Header>
                                 <strong>Front Desk Clerk, C’mon Inn Hotel & Suites; Evansville, WY – June 2015 – Dec 2015:</strong>
                                 </Accordion.Header>
