@@ -77,7 +77,6 @@ const PastEmployment = () => (
                                 <strong>Delivery driver, Jimmy John’s; Laramie, WY – July 2017 – July 2020:</strong>
                                 </Accordion.Header>
                                 <Accordion.Body>
-                                <strong>Delivery driver, Jimmy John’s; Casper, WY – Sep 2016 – July 2017</strong> <br />
                                 Customer service; food preparation; fulfill delivery orders safely; accurately and quickly; safe food
                                 handling; work in team-oriented environment; answer and troubleshoot customer questions and
                                 complaints.
@@ -110,8 +109,8 @@ const PastEmployment = () => (
                                 Sep 2016:</strong>
                                 </Accordion.Header>
                                 <Accordion.Body>
-                                <strong>Customer service; fulfill delivery orders safely; accurately and quickly; safe food handling; work in
-                                team-oriented environment; answer or troubleshoot customer questions and complaints.</strong>
+                                Customer service; fulfill delivery orders safely; accurately and quickly; safe food handling; work in
+                                team-oriented environment; answer or troubleshoot customer questions and complaints.
                                 </Accordion.Body>
                             </Accordion.Item>
                             <Accordion.Item eventKey="5">
