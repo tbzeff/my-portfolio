@@ -8,11 +8,11 @@
 }
 
 :root {
-  --primary-color: #9b1d20; 
-  --secondary-color: #3d2b3d; 
-  --accent-color: #635d5c;
-  --text-color: #cbefb6;
-  --link-color: #d0ffce;
+  --primary-color: #320a28; 
+  --secondary-color: #511730; 
+  --accent-color: #8e443d;
+  --text-color: #cb9173;
+  --link-color: #e0d68a;
 }
 
 .cprimary {
