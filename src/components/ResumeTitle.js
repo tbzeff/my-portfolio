@@ -9,11 +9,12 @@ const ResumeTitle = () => {
     const [hover1,setHover1] = React.useState(false);
     const [hover2,setHover2] = React.useState(false);
     const [hover3,setHover3] = React.useState(false);
+    const [hover4,setHover4] = React.useState(false);
 
     const itemclass1 = "m-auto";
     const itemclass2 = "m-auto bg-light";
 
-    let item1, item2, item3 = "";
+    let item1, item2, item3, item4 = "";
 
     if (hover1) {
         item1 = itemclass2
@@ -34,6 +35,13 @@ const ResumeTitle = () => {
     }
     else {
         item3 = itemclass1
+    }
+
+    if (hover4) {
+        item4 = itemclass2
+    }
+    else {
+        item4 = itemclass1
     }
 
     return (
@@ -67,6 +75,18 @@ const ResumeTitle = () => {
                     onMouseOver={ () => setHover3(true) }
                     onMouseOut={ () => setHover3(false) }>
                         <strong>LinkedIn</strong>
+                </a>
+                <br />
+                <a 
+                    className={item4 + " clink resume-card-custom hover-effect"}
+                    href="/TaylorsResume.pdf" 
+                    download 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    onMouseOver={ () => setHover4(true) }
+                    onMouseOut={ () => setHover4(false) }
+                >
+                    <strong>Download My Resume (PDF)</strong>
                 </a>
             </Card.Text>            
         </Card.Body>
