@@ -14,6 +14,19 @@ const PastEmployment = () => (
                         <Accordion>
                             <Accordion.Item eventKey="0" className="caccent ctext">
                                 <Accordion.Header>
+                                    <strong>Part-Time Software Developer (Contract), SLP.tools - April 2025 - Current</strong>
+                                </Accordion.Header>
+                                <Accordion.Body>
+                                <a href="https://www.slp.tools" rel="noreferrer noopener" target="_blank">SLP.tools</a>
+                                <br />
+                                Implement, modify, and test application features using Bubble.io according to platform best practices; attend weekly 
+                                meetings to review task requirements, progress, and outstanding issues; develop new user-facing features such as 
+                                "Favorites," tooltips, and "Message of the Day" modules; collaborate with team members using Bubble’s built-in version control system; 
+                                maintain detailed work logs and session records; generate invoices and track payments according to contract terms.     
+                                </Accordion.Body>
+                            </Accordion.Item>
+                            <Accordion.Item eventKey="1" className="caccent ctext">
+                                <Accordion.Header>
                                     <strong>Laboratory Technician, Standard Laboratories Inc. - Jan 2024 - June 2024:</strong>
                                 </Accordion.Header>
                                 <Accordion.Body> 
@@ -26,7 +39,7 @@ const PastEmployment = () => (
                                 procedures according to current ASTM specificatoins; keep logs of local procedure versions.
                                 </Accordion.Body>
                             </Accordion.Item>
-                            <Accordion.Item eventKey="1" className="caccent ctext">
+                            <Accordion.Item eventKey="2" className="caccent ctext">
                                 <Accordion.Header>
                                     <strong>Student Researcher - Rochester Institute of Technology -- “Cultivating Next Generation Software Engineers” REU; Rochester, NY – May 2019 – August 2019:</strong>
                                 </Accordion.Header>
@@ -37,7 +50,7 @@ const PastEmployment = () => (
                                 professors and other research teams.
                                 </Accordion.Body>
                             </Accordion.Item>
-                            <Accordion.Item eventKey="2" className="caccent ctext">
+                            <Accordion.Item eventKey="3" className="caccent ctext">
                                 <Accordion.Header>
                                 <strong>Video Technician, University of Wyoming Outreach School; Laramie, WY – Sep 2014 – June 2015:</strong>
                                 </Accordion.Header>

@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import senior_thumb from './res/proj_preview1.jpg';
 // import elem_auto_thumb from './res/proj_preview3.jpg';
 import memory_thumb from './res/proj_preview4.jpg';
-import codewars_thumb from './res/proj_preview5.jpg';
+// import codewars_thumb from './res/proj_preview5.jpg';
 import fata_thumb from './res/proj_preview2.jpg';
 import github_logo from './res/githublogo.png'
 
@@ -22,9 +22,6 @@ const ProjectCarousel = (props) => (
        </Carousel.Item>
        <Carousel.Item className="card-custom">
            <ProjectCard title="Simple Memory Game" href="/MemoryGame/main.html" img={memory_thumb} />
-       </Carousel.Item>
-       <Carousel.Item className="card-custom">
-           <ProjectCard title="Codewars Profile" href="https://www.codewars.com/users/T-Factorial" img={codewars_thumb} />
        </Carousel.Item>
        <Carousel.Item className="card-custom">
            <ProjectCard title="Fathom All the Animals - To Kill a Songbird" href="https://open.spotify.com/album/078ew3gL8BLLpPopEx360I" img={fata_thumb} />

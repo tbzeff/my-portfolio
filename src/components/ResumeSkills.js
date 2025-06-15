@@ -28,6 +28,7 @@ const ResumeSkills = () => (
                         <Row><Badge className="mb-3 caccent ctext" pill>Git/Version Control</Badge></Row>
                         <Row><Badge className="mb-3 caccent ctext" pill>DAWs (Digital Audio Workstations</Badge></Row>
                         <Row><Badge className="mb-3 caccent ctext" pill>ChatGPT</Badge></Row>
+                        <Row><Badge className="mb-3 caccent ctext" pill>Bubble.io</Badge></Row>
                     </Col>
                 </Row>
             </Container>
