@@ -17,6 +17,7 @@ const ResumeSkills = () => (
                         <Row><Badge className="mb-3 caccent ctext" pill>Python</Badge></Row>
                         <Row><Badge className="mb-3 caccent ctext" pill>Networking & Network Configuration</Badge></Row>
                         <Row><Badge className="mb-3 caccent ctext" pill>Microsoft .NET</Badge></Row>
+                        <Row><Badge className="mb-3 caccent ctext" pill>React Framework</Badge></Row>
                         <Row><Badge className="mb-3 caccent ctext" pill>Microsoft Office</Badge></Row>
                     </Col>
                     <Col style={{ margin: '5px'}}>
