@@ -54,6 +54,9 @@ body {
   flex-direction: row;
   border: solid 5px white;
   height: 130px;
+  border-radius: 30px;
+  background: rgba(255,255,255,0.08);
+  box-shadow: 0 2px 16px 0 rgba(0,0,0,0.10);
 }
 
 /* line 50, ../../../Documents/MyProjects/HTML/Games/Platformer/style/sass/main.scss */
@@ -62,6 +65,10 @@ body {
   width: 100px;
   height: 100px;
   margin: 15px;
+  border-radius: 50%;
+  box-shadow: 0 2px 8px 0 rgba(0,0,0,0.10);
+  border: 2px solid rgba(255,255,255,0.25);
+  transition: box-shadow 0.2s, border 0.2s;
 }
 
 /* line 57, ../../../Documents/MyProjects/HTML/Games/Platformer/style/sass/main.scss */
