@@ -7,6 +7,8 @@ import senior_thumb from './res/proj_preview1.jpg';
 import memory_thumb from './res/proj_preview4.jpg';
 // import codewars_thumb from './res/proj_preview5.jpg';
 import fata_thumb from './res/proj_preview2.jpg';
+
+import chatroom_preview from './res/chatroompreview.JPG';
 import github_logo from './res/githublogo.png'
 
 import Carousel from 'react-bootstrap/Carousel';
@@ -16,6 +18,9 @@ const ProjectCarousel = (props) => (
     <Carousel className="m-auto mb-5 csecondary border card-custom">
        <Carousel.Item className="card-custom">
            <ProjectCard title="Taylor's GitHub" href="https://github.com/tbzeff" img={github_logo} />
+       </Carousel.Item>
+       <Carousel.Item className="card-custom">
+           <ProjectCard title="Live Chatroom Demo" href="https://my-chatroom-app-client.onrender.com" img={chatroom_preview} />
        </Carousel.Item>
        <Carousel.Item className="card-custom">
            <ProjectCard title="Senior Project: Probabilistic Music Randomizer" href="https://github.com/mckade/wfcm" img={senior_thumb} />
