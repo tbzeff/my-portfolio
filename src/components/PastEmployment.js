@@ -73,6 +73,21 @@ const PastEmployment = () => (
                         <Accordion>
                             <Accordion.Item eventKey="0" className="caccent ctext">
                                 <Accordion.Header>
+                                <strong>Gas Station Clerk, Homax Oil Sales, Inc - Sinclair - Nov 2024 - Current</strong>
+                                </Accordion.Header>
+                                <Accordion.Body>
+                                Provide customer service in high-volume convenience retail environment;
+                                process cash, credit and mobile transactions; balance cash drawers and prepare daily deposits;
+                                maintain fuel pumps and store, including cleaning, troubleshooting and reporting issues;
+                                respond to and clean fuel/oil spills following safety and environmental protocols;
+                                prepare hot foods following food safety standards; stock and rotate products and monitor expiration dates;
+                                conduct alcohol and tobacco sales in compliance with state and federal regulations, including ID verification;
+                                close store independently, following security and cash-handling procedures; monitor fuel levels;
+                                de-escalate customer complaints or conflicts.
+                                </Accordion.Body>
+                            </Accordion.Item>
+                            <Accordion.Item eventKey="1" className="caccent ctext">
+                                <Accordion.Header>
                                 <strong>Sandwich Steward, Lou's Italian Specialties - Jan 2023 - Aug 2023</strong>
                                 </Accordion.Header>
                                 <Accordion.Body>
@@ -85,7 +100,7 @@ const PastEmployment = () => (
                                 put together large catering orders in a timely manner.
                                 </Accordion.Body>
                             </Accordion.Item>
-                            <Accordion.Item eventKey="1" className="caccent ctext">
+                            <Accordion.Item eventKey="2" className="caccent ctext">
                                 <Accordion.Header>
                                 <strong>Delivery driver, Jimmy John’s; Laramie, WY – July 2017 – July 2020:</strong>
                                 </Accordion.Header>
@@ -95,7 +110,7 @@ const PastEmployment = () => (
                                 complaints.
                                 </Accordion.Body>
                             </Accordion.Item>
-                            <Accordion.Item eventKey="2" className="caccent ctext">
+                            <Accordion.Item eventKey="3" className="caccent ctext">
                                 <Accordion.Header>
                                 <strong>Bassist, Fathom All the Animals; Denver, CO – Spring 2015 – Present:</strong>
                                 </Accordion.Header>
@@ -105,7 +120,7 @@ const PastEmployment = () => (
                                 practice; travel; networking with other musicians, promoters, venues, etc.
                                 </Accordion.Body>
                             </Accordion.Item>
-                            <Accordion.Item eventKey="3" className="caccent ctext">
+                            <Accordion.Item eventKey="4" className="caccent ctext">
                                 <Accordion.Header>
                                 <strong>Line server, Qdoba Mexican Grill; Casper, WY – Sep 2012 – Aug 2014, Dec 2015 – June 2016:</strong>
                                 </Accordion.Header>
@@ -116,7 +131,7 @@ const PastEmployment = () => (
                                 restaurant clean and presentable; paying attention to details.
                                 </Accordion.Body>
                             </Accordion.Item>
-                            <Accordion.Item eventKey="4" className="caccent ctext">
+                            <Accordion.Item eventKey="5" className="caccent ctext">
                                 <Accordion.Header>
                                 <strong>Delivery driver, Domino’s Pizza; Casper, WY – Jan 2015 – Feb 2015, Loveland CO – June 2016 –
                                 Sep 2016:</strong>
@@ -126,7 +141,7 @@ const PastEmployment = () => (
                                 team-oriented environment; answer or troubleshoot customer questions and complaints.
                                 </Accordion.Body>
                             </Accordion.Item>
-                            <Accordion.Item eventKey="5" className="caccent ctext">
+                            <Accordion.Item eventKey="6" className="caccent ctext">
                                 <Accordion.Header>
                                 <strong>Front Desk Clerk, C’mon Inn Hotel & Suites; Evansville, WY – June 2015 – Dec 2015:</strong>
                                 </Accordion.Header>
